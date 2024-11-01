@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./index.css">
+	<title>ABS Airplane Booking System</title>
+</head>
+<body>
+	<!-- Navbar Section Start -->
+	<div class="homepage-content">
+		<header>
+			<nav class="navbar navbar-expand-lg background-navbar-darkgreen">
+				<div class="container">
+					<a class="navbar-brand" href="#" id="logo"><h1 class="text-white fw-bold">abs</h1></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav ms-auto">
+							<a class="nav-link w-100 text-white" href="/">
+								<i class="bi bi-airplane-fill me-2"></i>Book a flight</a>
+							<a class="nav-link w-100 text-white" href="/">
+								<i class="bi bi-calendar-check-fill me-2"></i>Manage/Checkin</a>	
+							<a class="nav-link w-100 text-white" href="/">
+								<i class="bi bi-geo-alt-fill me-2"></i>Flight Status</a>
+							<button class="btn m-2 w-100 px-3 py-1 mx-2 background-transparent text-white" type="button">Login</button>
+							<button class="btn m-2 w-100 px-3 py-1 mx-2 bg-white border-darkgreen rounded" type="button">Signup</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Navbar Section End -->
+
+		<main>
+			<!-- Landing Section Start -->
+			<section id="landing" class="">
+				<div class="container-fluid text-center text-white vh-50 d-flex justify-content-center align-items-center flex-column gap-1">
+					<p>Explore</p>
+					<h2>Europe and USA this autumn</h2>
+					<p>Enjoy up to 10% savings</p>
+					<button class="btn m-2 w-auto px-5 py-2 mx-2 background-lightblue rounded text-white fw-semibold" type="button"><i class="bi bi-plus"></i>Book now</button>
+				</div>
+			</section>
+			<!-- Landing Section End -->
+
+			<!-- Book a Flight Section -->
+			<section id="book" class="d-flex justify-content-center position-relative position-top-20px">
+				<div class="container border-lightblue bg-white">
+					<ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
+						<li class="nav-item" role="presentation">
+						  <a class="nav-link active" id="simple-tab-0" data-bs-toggle="tab" href="#simple-tabpanel-0" role="tab" aria-controls="simple-tabpanel-0" aria-selected="true">
+							<i class="bi bi-airplane-fill me-2"></i>Book a flight
+						  </a>
+						</li>
+						<li class="nav-item" role="presentation">
+						  <a class="nav-link" id="simple-tab-1" data-bs-toggle="tab" href="#simple-tabpanel-1" role="tab" aria-controls="simple-tabpanel-1" aria-selected="false">
+							<i class="bi bi-calendar-check-fill me-2"></i>Manage/Checkin
+						  </a>
+						</li>
+						<li class="nav-item" role="presentation">
+						  <a class="nav-link" id="simple-tab-2" data-bs-toggle="tab" href="#simple-tabpanel-2" role="tab" aria-controls="simple-tabpanel-2" aria-selected="false">
+							<i class="bi bi-geo-alt-fill me-2"></i>Flight Status
+						  </a>
+						</li>
+					  </ul>
+					  <div class="tab-content p-2 text-center" id="tab-content">
+						<div class="tab-pane active" id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">Tab 1 selected</div>
+						<div class="tab-pane" id="simple-tabpanel-1" role="tabpanel" aria-labelledby="simple-tab-1">Tab 2 selected</div>
+						<div class="tab-pane" id="simple-tabpanel-2" role="tabpanel" aria-labelledby="simple-tab-2">Tab 3 selected</div>
+					  </div>
+				</div>
+			</section>
+			<!-- Book a Flight Section -->
+
+			<!-- Plan Section Start -->
+			<section id="plan" class="my-2 pt-5">
+				<div class="container text-white d-flex">
+					<div class="row">
+						<div class="col-12 col-md-9">
+							<h2 class="text-dark">Plan Your Next Adventure Today!</h2>
+							<p class="text-darkgreen fw-normal">Are you ready to explore the world's most famous tourist destinations? Begin crafting your itinerary for your next unforgettable trip!</p>
+						</div>
+						<div class="col-12 col-md-3">
+							<button class="btn m-2 w-auto px-5 py-2 mx-2 background-lightblue rounded text-white fw-semibold ms-auto" type="button">See more places<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<!-- Row 1 -->
+				<div class="container card-group">
+					<div class="card mb-3">
+						<div class="row g-0">
+						  <div class="col-md-4 d-flex justify-content-center align-items-center">
+							<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- Row 2 -->
+				<div class="container card-group">
+					<div class="card mb-3">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+								</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Row 3 -->
+				<div class="container card-group">
+					<div class="card mb-3">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+								</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Plan Section End -->
+
+			<!-- Discover Section Start -->
+			<section id="plan" class="my-2 py-5">
+				<div class="container text-white d-flex mb-2">
+					<div class="row">
+						<div class="col-12 col-md-9">
+							<h2 class="text-dark">Discover the Best Airfare Deals Today</h2>
+							<p class="text-darkgreen fw-normal"> Unlock incredible savings with our latest promotions on airfare, designed to make your next journey both affordable and unforgettable.</p>
+						</div>
+						<div class="col-12 col-md-3">
+							<button class="btn m-2 w-auto px-5 py-2 mx-2 background-lightblue rounded text-white fw-semibold ms-auto" type="button">See more places<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+				</div>
+				<!-- Row 1 -->
+				<div class="container card-group d-flex justify-content-center align-items-center">
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+						  <h3 class="card-title text-white">Card title</h3>
+						  <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						  <button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+						  <h3 class="card-title text-white">Card title</h3>
+						  <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						  <button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+						  <h3 class="card-title text-white">Card title</h3>
+						  <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						  <button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+				</div>
+				<!-- Row 2 -->
+				<div class="container card-group d-flex justify-content-center align-items-center">
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+				</div>
+				<!-- Row 3 -->
+				<div class="container card-group d-flex justify-content-center align-items-center">
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+					<div class="card text-bg-dark text-center">
+						<img src="./images/homepage/landing_page_bg.png" class="card-img" alt="...">
+						<div class="card-img-overlay bg-image-overlay">
+							<h3 class="card-title text-white">Card title</h3>
+							<p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<button class="btn m-2 w-auto px-4 py-2 mx-2 background-darkblue rounded text-white fw-semibold ms-auto" type="button">Show flights<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Discover Section Start -->
+			<section id="plan" class="my-2 py-5">
+				<div class="container text-white d-flex mb-2">
+					<div class="row">
+						<div class="col-12 col-md-9">
+							<h2 class="text-dark">Looking for a travel package?</h2>
+							<p class="text-darkgreen fw-normal">Save more and earn greater rewards when you book your flight with us.</p>
+						</div>
+						<div class="col-12 col-md-3">
+							<button class="btn m-2 w-auto px-5 py-2 mx-2 background-lightblue rounded text-white fw-semibold ms-auto" type="button">See more places<i class="bi bi-arrow-right ms-2"></i></button>
+						</div>
+					</div>
+				</div>
+				<!-- Row 1 -->
+				<div class="container card-group">
+					<div class="card mb-3">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+								</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Row 2 -->
+				<div class="container card-group">
+					<div class="card mb-3">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+							<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+								</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 me-2">
+						<div class="row g-0">
+							<div class="col-md-4 d-flex justify-content-center align-items-center">
+								<img src="./images/homepage/Plan/maldives.png" class="img-fluid rounded-start" alt="">
+							</div>
+							<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</main>
+
+		<footer id="footer" class="py-2 background-darkblue text-white text-center">
+			<div>
+				<p>&copy; 2024 ABS Airplane Booking System. All rights reserved.</p>
+			</div>
+		</footer>
+
+	<!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
