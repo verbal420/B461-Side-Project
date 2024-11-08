@@ -37,36 +37,47 @@
     <!-- Main Content Start -->
     <main class="container my-4">
         <!-- Sort and Filter Options -->
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="filters">
-                <label>Filter by Airline:</label>
-                <select class="form-select d-inline-block w-auto">
-                    <option value="">All Airlines</option>
-                    <option value="Airline 1">Airline 1</option>
-                    <option value="Airline 2">Airline 2</option>
-                </select>
-
-                <label>Flight Timing:</label>
-                <select class="form-select d-inline-block w-auto">
-                    <option value="anytime">Anytime</option>
-                    <option value="morning">Morning</option>
-                    <option value="afternoon">Afternoon</option>
-                    <option value="evening">Evening</option>
-                </select>
-
-                <label>Price Range:</label>
-                <input type="range" class="form-range" min="100" max="2000" step="100">
+        <div class="row mb-3">
+            <!-- Filters Section -->
+            <div class="col-12 col-lg-9">
+                <div class="row g-2">
+                    <div class="col-12 col-md-4">
+                        <label for="airlineFilter" class="form-label">Filter by Airline:</label>
+                        <select id="airlineFilter" class="form-select">
+                            <option value="">All Airlines</option>
+                            <option value="Airline 1">Airline 1</option>
+                            <option value="Airline 2">Airline 2</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="flightTiming" class="form-label">Flight Timing:</label>
+                        <select id="flightTiming" class="form-select">
+                            <option value="anytime">Anytime</option>
+                            <option value="morning">Morning</option>
+                            <option value="afternoon">Afternoon</option>
+                            <option value="evening">Evening</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="priceRange" class="form-label">Price Range:</label>
+                        <input type="range" id="priceRange" class="form-range" min="100" max="2000" step="100">
+                    </div>
+                </div>
             </div>
 
-            <div class="sort-options">
-                <label>Sort by:</label>
-                <select class="form-select d-inline-block w-auto">
-                    <option value="price">Price</option>
-                    <option value="airline">Airline</option>
-                    <option value="time">Time</option>
-                </select>
+            <!-- Sort Options Section -->
+            <div class="col-12 col-lg-3">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-end">
+                    <label for="sortBy" class="me-md-2 mb-1 mb-md-0">Sort by:</label>
+                    <select id="sortBy" class="form-select w-100 w-md-auto">
+                        <option value="price">Price</option>
+                        <option value="airline">Airline</option>
+                        <option value="time">Time</option>
+                    </select>
+                </div>
             </div>
         </div>
+
 
         <!-- Flight Cards -->
         <div class="results-container">
