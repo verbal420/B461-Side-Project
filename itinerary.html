@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Details</title>
+    
+    <!-- Bootstrap and External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg background-navbar-darkgreen">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" id="logo"><h1 class="text-white fw-bold">abs</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link text-white" href="search-results.html"><i class="bi bi-airplane-fill me-2"></i>Book a flight</a>
+                        <a class="nav-link text-white" href="search-results.html"><i class="bi bi-calendar-check-fill me-2"></i>Manage/Checkin</a>
+                        <a class="nav-link text-white" href="search-results.html"><i class="bi bi-geo-alt-fill me-2"></i>Flight Status</a>
+                        <a class="nav-link text-white" href="usersignup.html"><i class="bi bi-person-fill me-2"></i>Signup</a>
+                        <a class="btn m-2 px-3 py-1 mx-2 bg-white border-darkgreen rounded text-darkgreen" href="login.html">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Itinerary Content Start -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4 text-darkgreen">My Itinerary</h2>
+
+        <!-- Upcoming Bookings -->
+        <section class="mb-5">
+            <h4 class="text-darkblue">Upcoming Bookings</h4>
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5>Flight #123 - NYC to LAX</h5>
+                    <p><strong>Airline:</strong> ABC Airlines</p>
+                    <p><strong>Departure:</strong> Jan 10, 2024 - 9:00 AM</p>
+                    <p><strong>Arrival:</strong> Jan 10, 2024 - 12:00 PM</p>
+                    <p><strong>Seat Number:</strong> 12A</p>
+                    <button class="btn btn-primary me-2">Modify</button>
+                    <button class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+            <!-- Repeat for other upcoming bookings as needed -->
+        </section>
+
+        <!-- Past Bookings -->
+        <section class="mb-5">
+            <h4 class="text-darkblue">Past Bookings</h4>
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5>Flight #456 - LAX to SFO</h5>
+                    <p><strong>Airline:</strong> XYZ Airlines</p>
+                    <p><strong>Departure:</strong> Dec 5, 2023 - 10:00 AM</p>
+                    <p><strong>Arrival:</strong> Dec 5, 2023 - 11:30 AM</p>
+                    <p><strong>Seat Number:</strong> 15C</p>
+                    <button class="btn btn-secondary me-2">Print Itinerary</button>
+                    <button class="btn btn-secondary">Email Itinerary</button>
+                </div>
+            </div>
+            <!-- Repeat for other past bookings as needed -->
+        </section>
+    </main>
+    <!-- Itinerary Content End -->
+
+    <!-- Footer Start -->
+    <footer id="footer" class="py-2 background-darkblue text-white text-center">
+        <div>
+            <p>&copy; 2024 ABS Airplane Booking System. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
