@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Status</title>
+
+    <!-- Bootstrap and External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg background-navbar-darkgreen">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" id="logo"><h1 class="text-white fw-bold">abs</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link text-white" href="index.html"><i class="bi bi-airplane-fill me-2"></i>Book a flight</a>
+                        <a class="nav-link text-white" href="search-results.html"><i class="bi bi-calendar-check-fill me-2"></i>Manage/Checkin</a>
+                        <a class="nav-link text-white" href="search-results.html"><i class="bi bi-geo-alt-fill me-2"></i>Flight Status</a>
+                        <a class="nav-link text-white" href="usersignup.html"><i class="bi bi-person-fill me-2"></i>Signup</a>
+                        <a class="btn m-2 px-3 py-1 mx-2 bg-white border-darkgreen rounded text-darkgreen" href="login.html">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Payment Status Main Content Start -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4 text-darkgreen">Payment Confirmation</h2>
+
+        <!-- Payment Details Section -->
+        <div class="card border-lightblue mb-4">
+            <div class="card-header background-lightblue text-white">
+                <h5>Payment Details</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Total Amount Paid:</strong> $1200</p>
+                <p><strong>Payment Date:</strong> November 15, 2024</p>
+                <p><strong>Payment Method:</strong> Credit Card (Visa)</p>
+                <p><strong>Transaction ID:</strong> #ABC123456</p>
+            </div>
+        </div>
+
+        <!-- Payment Status Section -->
+        <div class="card border-lightblue mb-4">
+            <div class="card-header background-lightblue text-white">
+                <h5>Payment Status</h5>
+            </div>
+            <div class="card-body text-center">
+                <p><strong>Status:</strong> <span class="text-success">Confirmed</span></p>
+                <p>Your payment was successfully processed. A receipt has been emailed to you, and you can download it below.</p>
+                <button class="btn btn-success mt-3"><i class="bi bi-download"></i> Download Receipt</button>
+                <button class="btn btn-outline-primary mt-3"><i class="bi bi-envelope"></i> Email Receipt</button>
+            </div>
+        </div>
+
+        <!-- Back to Dashboard Button -->
+        <div class="text-center mt-4">
+            <a href="user-profile.html" class="btn btn-darkgreen background-darkgreen text-white px-4 py-2"><i class="bi bi-arrow-left"></i> Back to Dashboard</a>
+        </div>
+    </main>
+    <!-- Payment Status Main Content End -->
+
+    <!-- Footer Start -->
+    <footer id="footer" class="py-2 background-darkblue text-white text-center">
+        <div>
+            <p>&copy; 2024 ABS Airplane Booking System. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
